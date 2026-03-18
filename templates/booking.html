@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booked Slots</title>
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .container {
+            width: 60%;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            color: black;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+        }
+
+        a {
+            color: yellow;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>📌 Booked Slots</h2>
+
+<div class="container">
+{% for slot in slots %}
+    <div class="card">
+        <span>⏰ {{ slot.time_slot }}</span>
+        <span>👤 {{ slot.user_name }}</span>
+    </div>
+{% endfor %}
+</div>
+
+<br>
+<a href="/">⬅ Back</a>
+
+</body>
+</html>

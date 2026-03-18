@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Normal_slot_booking/.idea/Normal_slot_booking.iml" filepath="$PROJECT_DIR$/../Normal_slot_booking/.idea/Normal_slot_booking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Slot_booking.iml" filepath="$PROJECT_DIR$/.idea/Slot_booking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../haritha_slot_booking/.idea/haritha_slot_booking.iml" filepath="$PROJECT_DIR$/../haritha_slot_booking/.idea/haritha_slot_booking.iml" />
+    </modules>
+  </component>
+</project>
